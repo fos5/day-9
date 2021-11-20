@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Text Generator</title>
+</head>
+<body>
+    <section class="section-center">
+        <h3>Lorem Ipsum</h3>
+        <form class="lorem-form">
+            <label for="numofpara">Paragraphs :</label>
+            <div class="paraAmountNum">
+                <input type="range" min="1" max="10" value="3" id="numofparaRange">
+                <input type="number" min="1" max="10" value="3" id="numofpara">                
+            </div>
+            <button type="submit" class="btn" >Generate</button>
+        </form>
+        <article class="lorem-text"></article>
+    </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
+
+
